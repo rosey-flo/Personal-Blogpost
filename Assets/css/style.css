@@ -6,6 +6,7 @@
     font-family: "Manrope", sans-serif;
     color: rgb(58, 58, 58);
     background-color: bisque;
+    
 }
 
 /* LAYOUTS */
@@ -21,13 +22,13 @@ body{
 }
 
 
-div.blog_page {
+.blog_page {
     display: flex;
     padding: 20px;
     margin: 0px;
     top: 0;
     width: 100vw;
-    border: solid 5px rgb(130, 238, 189);
+    
     
     
     
@@ -38,8 +39,6 @@ div.blog_page {
     justify-content: center;
     align-items: center;
     
-    
-    border: solid 5px violet; 
 }
 .right_side {
     display:flex;
@@ -47,9 +46,8 @@ div.blog_page {
     height: fit-content;
     width: fit-content;
     margin-top: 250px;
+    align-items: center;
    
-    
-    border: solid 5px violet;
 }
 
 .left_side, .right_side {
@@ -64,5 +62,5 @@ div.blog_page {
     max-width: 300px;
     display: flex;
     flex-direction: column;
-    
+
 }
