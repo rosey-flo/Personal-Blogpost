@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog</title>
+    <title>Blog Post Page</title>
     <link rel="stylesheet" href="./Assets/css/blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="nav">
+        <a href="./index.html" class="back-button">&larr; Go back and submit another post</a>
+
+
+        <label class="switch">
+            <input type="checkbox" id="toggle">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <div class="content">
+
+        <h1 class="post_header">Your Entries:</h1>
+
+        <main class="entry_box">
+        </main>
+
+        <script src="./Assets/javascript/blog.js"></script>
+    </div>
 </body>
+<footer>
+    <p>Portfolio</p>
+    <p>&copy Produced by: Emily Flores</p>
+</footer>
+
 </html>

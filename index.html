@@ -1,45 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Blog</title>
+    <title>Your Personal Blog</title>
     <link rel="stylesheet" href="./Assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
+
 <body class="blog_page">
     <!--This Part will be the left side of my landing page-->
-    <div class="blog_page">
-        <main class="left_side">
+    <div class="left_side">
             <h1>Welcome to Your Personal Blog!</h1>
             <img src="./Assets/images/diary photo.jpeg" alt="A Journal">
-        </main>
     </div>
 
-<!--This Part will be the right side of my landing page which includes the form for user input-->
-    <div class="blog_page">
-       <main class="right_side">
-        <h1>Make your Entries Here!</h1>
-        
-        <form id="post_form">
+    <!--This Part will be the right side of my landing page which includes the form for user input-->
+    <div class="right_side">
+            <h1>Make your Entries Here!</h1>
 
-            <h2 class="user_name">Name</h2>
-            <input id="post_input" type='text' placeholder="Enter your name here">
-            
-            <h2 class="entry_title">Title</h2>
-            <input id="post_input" type='text' placeholder="Title your blog entry">
+            <form id="post_form" class="post-form">
 
-            <h2 class="entry_message">Message</h2>
-            <input id="post_input" type='text' placeholder="Enter your post here">
-    
-    
-            <button>Submit Post</button>
-            
+                <h2 class="user_name">Name</h2>
+                <input id="username-input" type='text' placeholder="Enter your name here">
+
+                <h2 class="entry_title">Title</h2>
+                <input id="title-input" type='text' placeholder="Title your blog entry">
+
+                <h2 class="entry_message">Message</h2>
+                <input id="message-input" type='text' placeholder="Enter your post here">
+
+
+                <button type="submit" id="submit">Submit Post</button>
+               
+
             </form>
-        </main>
     </div>
-    
+
+    <script src="./Assets/javascript/script.js"></script>
 </body>
+
 </html>
